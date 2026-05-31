@@ -11,3 +11,11 @@ Future<void> main() async {
 
   runApp(const MyApp());
 }
+await Supabase.instance.client.auth.signInWithPassword(
+  email: email,
+  password: password,
+);
+await Supabase.instance.client.auth.signUp(
+  email: email,
+  password: password,
+);
