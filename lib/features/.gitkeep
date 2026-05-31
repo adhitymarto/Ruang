@@ -1,0 +1,4 @@
+lib/
+├── core/
+├── features/
+└── shared/
